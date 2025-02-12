@@ -2,9 +2,9 @@ public class Principal {
   public static void main (String [] args) {
     FolhaDePagamento a = new FolhaDePagamento();
 
-    Empregado empregadoA = new Assalariado("João", "Silva", "123.456.789-00", 3000.00);
-    Empregado empregadoB = new Comissionado("Maria", "Santos", "987.654.321-00", 10000.00, 0.1);
-    Empregado empregadoC = new Horista("Carlos", "Oliveira", "111.222.333-44", 20.00, 160);
+    Empregado empregadoA = new Assalariado("Sam", "Altman", "000.000.000-00", 3000.00);
+    Empregado empregadoB = new Comissionado("Lisa", "Su", "111.111.111-11", 10000.00, 0.1);
+    Empregado empregadoC = new Horista("Jensen", "Huang", "222.222.222-22", 20.00, 160);
 
     a.adicionarFuncionario(empregadoA);
     a.adicionarFuncionario(empregadoB);
