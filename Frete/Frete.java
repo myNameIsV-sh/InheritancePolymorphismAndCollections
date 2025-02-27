@@ -23,5 +23,9 @@ public abstract class Frete {
     this.distancia = distancia;
   }
 
+  @Override
+  public String toString() {
+    return String.format("Distância: %.2f km | Valor por Km: R$%.2f", getDistancia(), getvalorKilometros());
+  }
 
 }
